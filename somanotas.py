@@ -9,8 +9,8 @@ if media >=7:
 elif media<=4:
     print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está reprovado")
 else:
-    print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está de recuperação")
-    notaR=float(input("Digite a nota da recuperação: "))
+   print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está de recuperação")
+   notaR=float(input("Digite a nota da recuperação: "))
    if notaR>=7:
     print("A nota da recuperação do aluno",nome," foi", notaR, " e ele está aprovado")
    else:
