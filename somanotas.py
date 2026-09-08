@@ -7,7 +7,7 @@ media=(nota1+nota2+nota3+nota4)/4
 if media >=7:
     print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está aprovado")
 elif media<=4:
-    print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está reproprovado")
+    print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está reprovado")
 else:
     print(f"A média das 4 notas ({nota1: .1f},{nota2: .1f},{nota3: .1f},{nota4: .1f} ) do aluno {nome} é {media: .2f} e ele está de recuperação")
 notaR=float(input("Digite a nota da recuperação: "))
