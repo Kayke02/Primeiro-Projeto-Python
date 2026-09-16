@@ -27,7 +27,12 @@ if resposta == "S" or resposta == "s":
         print (f"O valor a ser pago por cada pessoa é igual a: {0.95 * ((Total*1.1)/NP): .2f} R$")
 else:
     print(f"O valor total a ser pago é igual a: {1.1*Total} R$")
-Pgorjeta = input("Você gostaria de dar uma gorjeta? (S/N)")
+Pgorjeta = input("Você gostaria de dar uma gorjeta? (S/N) ")
 if Pgorjeta == "S" or Pgorjeta == "s":
     gorjeta=float(input("Quantos reais você gostaria de dar para os nossos excelentes trabalhadores? "))
+    print(f"Muito obrigado pela gorjeta de {gorjeta} reais!")
+else:
+    print("Tudo bem, entendemos que você não pode ou não deseja fornecer agora, como podemos melhorar o serviço?")
+
+
 
