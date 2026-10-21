@@ -10,4 +10,4 @@ def comparar(a,b):
     return maior
 for i in range(limite-1):
     maior_comparado = comparar(vetor[i],vetor[i+1])
-print(f"{maior_comparado}")
+print(f"O maior elemento do vetor é {maior_comparado}.")
